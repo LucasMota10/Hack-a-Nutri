@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10A37BF2B27BEBA00D0B69B /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */; };
+		F18129FF2B226CC800F4AB32 /* Hacka_NutriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18129FE2B226CC800F4AB32 /* Hacka_NutriApp.swift */; };
+		F1812A012B226CC800F4AB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1812A002B226CC800F4AB32 /* ContentView.swift */; };
+		F1812A032B226CC800F4AB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1812A022B226CC800F4AB32 /* Assets.xcassets */; };
+		F1812A062B226CC800F4AB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1812A052B226CC800F4AB32 /* Preview Assets.xcassets */; };
+		F1812A0D2B22706C00F4AB32 /* ListOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1812A0C2B22706C00F4AB32 /* ListOptions.swift */; };
+		F1FF98272B290C0800F823C0 /* Treinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98262B290C0800F823C0 /* Treinos.swift */; };
+		F1FF98292B290C2C00F823C0 /* Nutrição.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98282B290C2C00F823C0 /* Nutrição.swift */; };
+		F1FF982B2B290C5700F823C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF982A2B290C5700F823C0 /* Home.swift */; };
+		F1FF982F2B29100E00F823C0 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF982E2B29100E00F823C0 /* PerfilView.swift */; };
+		F1FF98312B291DE500F823C0 /* ConquistouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98302B291DE400F823C0 /* ConquistouView.swift */; };
+		F1FF98332B291EC700F823C0 /* NaoConquistouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98322B291EC700F823C0 /* NaoConquistouView.swift */; };
+		F1FF98352B29217F00F823C0 /* PesoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98342B29217F00F823C0 /* PesoView.swift */; };
+		F1FF98372B292D5500F823C0 /* AlturaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98362B292D5500F823C0 /* AlturaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		F18129FB2B226CC800F4AB32 /* Hacka-Nutri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacka-Nutri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18129FE2B226CC800F4AB32 /* Hacka_NutriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacka_NutriApp.swift; sourceTree = "<group>"; };
+		F1812A002B226CC800F4AB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1812A022B226CC800F4AB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1812A052B226CC800F4AB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1812A0C2B22706C00F4AB32 /* ListOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOptions.swift; sourceTree = "<group>"; };
+		F1FF98262B290C0800F823C0 /* Treinos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treinos.swift; sourceTree = "<group>"; };
+		F1FF98282B290C2C00F823C0 /* Nutrição.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nutrição.swift"; sourceTree = "<group>"; };
+		F1FF982A2B290C5700F823C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F1FF982E2B29100E00F823C0 /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		F1FF98302B291DE400F823C0 /* ConquistouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistouView.swift; sourceTree = "<group>"; };
+		F1FF98322B291EC700F823C0 /* NaoConquistouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaoConquistouView.swift; sourceTree = "<group>"; };
+		F1FF98342B29217F00F823C0 /* PesoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesoView.swift; sourceTree = "<group>"; };
+		F1FF98362B292D5500F823C0 /* AlturaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlturaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18129F82B226CC800F4AB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18129F22B226CC800F4AB32 = {
+			isa = PBXGroup;
+			children = (
+				F18129FD2B226CC800F4AB32 /* Hacka-Nutri */,
+				F18129FC2B226CC800F4AB32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18129FC2B226CC800F4AB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18129FB2B226CC800F4AB32 /* Hacka-Nutri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18129FD2B226CC800F4AB32 /* Hacka-Nutri */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF98342B29217F00F823C0 /* PesoView.swift */,
+				F18129FE2B226CC800F4AB32 /* Hacka_NutriApp.swift */,
+				F1812A002B226CC800F4AB32 /* ContentView.swift */,
+				F1812A0C2B22706C00F4AB32 /* ListOptions.swift */,
+				F1FF98262B290C0800F823C0 /* Treinos.swift */,
+				F1FF98282B290C2C00F823C0 /* Nutrição.swift */,
+				F1FF982E2B29100E00F823C0 /* PerfilView.swift */,
+				F1FF982A2B290C5700F823C0 /* Home.swift */,
+				F1FF98322B291EC700F823C0 /* NaoConquistouView.swift */,
+				F1FF98302B291DE400F823C0 /* ConquistouView.swift */,
+				F1FF98362B292D5500F823C0 /* AlturaView.swift */,
+				F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */,
+				F1812A022B226CC800F4AB32 /* Assets.xcassets */,
+				F1812A042B226CC800F4AB32 /* Preview Content */,
+			);
+			path = "Hacka-Nutri";
+			sourceTree = "<group>";
+		};
+		F1812A042B226CC800F4AB32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1812A052B226CC800F4AB32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18129FA2B226CC800F4AB32 /* Hacka-Nutri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1812A092B226CC800F4AB32 /* Build configuration list for PBXNativeTarget "Hacka-Nutri" */;
+			buildPhases = (
+				F18129F72B226CC800F4AB32 /* Sources */,
+				F18129F82B226CC800F4AB32 /* Frameworks */,
+				F18129F92B226CC800F4AB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacka-Nutri";
+			productName = "Hacka-Nutri";
+			productReference = F18129FB2B226CC800F4AB32 /* Hacka-Nutri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18129F32B226CC800F4AB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F18129FA2B226CC800F4AB32 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F18129F62B226CC800F4AB32 /* Build configuration list for PBXProject "Hacka-Nutri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18129F22B226CC800F4AB32;
+			productRefGroup = F18129FC2B226CC800F4AB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18129FA2B226CC800F4AB32 /* Hacka-Nutri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18129F92B226CC800F4AB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1812A062B226CC800F4AB32 /* Preview Assets.xcassets in Resources */,
+				F1812A032B226CC800F4AB32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18129F72B226CC800F4AB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1812A0D2B22706C00F4AB32 /* ListOptions.swift in Sources */,
+				F1FF98352B29217F00F823C0 /* PesoView.swift in Sources */,
+				F1FF98332B291EC700F823C0 /* NaoConquistouView.swift in Sources */,
+				F1FF98292B290C2C00F823C0 /* Nutrição.swift in Sources */,
+				F1FF98312B291DE500F823C0 /* ConquistouView.swift in Sources */,
+				F1FF982B2B290C5700F823C0 /* Home.swift in Sources */,
+				F1FF982F2B29100E00F823C0 /* PerfilView.swift in Sources */,
+				F10A37BF2B27BEBA00D0B69B /* ProgressView.swift in Sources */,
+				F1FF98272B290C0800F823C0 /* Treinos.swift in Sources */,
+				F1812A012B226CC800F4AB32 /* ContentView.swift in Sources */,
+				F18129FF2B226CC800F4AB32 /* Hacka_NutriApp.swift in Sources */,
+				F1FF98372B292D5500F823C0 /* AlturaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1812A072B226CC800F4AB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1812A082B226CC800F4AB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1812A0A2B226CC800F4AB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacka-Nutri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergio-Brito.Hacka-Nutri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1812A0B2B226CC800F4AB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacka-Nutri/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergio-Brito.Hacka-Nutri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18129F62B226CC800F4AB32 /* Build configuration list for PBXProject "Hacka-Nutri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1812A072B226CC800F4AB32 /* Debug */,
+				F1812A082B226CC800F4AB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1812A092B226CC800F4AB32 /* Build configuration list for PBXNativeTarget "Hacka-Nutri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1812A0A2B226CC800F4AB32 /* Debug */,
+				F1812A0B2B226CC800F4AB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18129F32B226CC800F4AB32 /* Project object */;
+}
