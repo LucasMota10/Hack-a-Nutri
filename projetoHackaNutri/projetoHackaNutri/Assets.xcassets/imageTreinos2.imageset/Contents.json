@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "32daeef3d530e95e1b638fc28726996f-silhueta-de-crossfit-sobrecarga-de-sobrecarga 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
