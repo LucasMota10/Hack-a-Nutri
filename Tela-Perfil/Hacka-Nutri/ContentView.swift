@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let opcoes = options
+    @State var pesoAtual: String = "79.50"
 var body: some View {
         TabView {
             Home()

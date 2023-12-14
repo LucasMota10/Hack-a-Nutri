@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct PesoView: View {
-    @State var peso: Float = 72
+    @State var peso: Float = 0
     let formatter: NumberFormatter = {
             let formatter = NumberFormatter()
             formatter.numberStyle = .decimal
+            formatter.zeroSymbol  = ""
             return formatter
         }()
     @State var pesoAtual: String = "79.50"

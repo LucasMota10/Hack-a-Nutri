@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F10A37BF2B27BEBA00D0B69B /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */; };
 		F18129FF2B226CC800F4AB32 /* Hacka_NutriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18129FE2B226CC800F4AB32 /* Hacka_NutriApp.swift */; };
 		F1812A012B226CC800F4AB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1812A002B226CC800F4AB32 /* ContentView.swift */; };
 		F1812A032B226CC800F4AB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1812A022B226CC800F4AB32 /* Assets.xcassets */; };
 		F1812A062B226CC800F4AB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1812A052B226CC800F4AB32 /* Preview Assets.xcassets */; };
 		F1812A0D2B22706C00F4AB32 /* ListOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1812A0C2B22706C00F4AB32 /* ListOptions.swift */; };
+		F1B61F862B2A5FB90089A107 /* ProgressoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B61F852B2A5FB90089A107 /* ProgressoView.swift */; };
 		F1FF98272B290C0800F823C0 /* Treinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98262B290C0800F823C0 /* Treinos.swift */; };
 		F1FF98292B290C2C00F823C0 /* Nutrição.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF98282B290C2C00F823C0 /* Nutrição.swift */; };
 		F1FF982B2B290C5700F823C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF982A2B290C5700F823C0 /* Home.swift */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		F18129FB2B226CC800F4AB32 /* Hacka-Nutri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacka-Nutri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18129FE2B226CC800F4AB32 /* Hacka_NutriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacka_NutriApp.swift; sourceTree = "<group>"; };
 		F1812A002B226CC800F4AB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1812A022B226CC800F4AB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1812A052B226CC800F4AB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1812A0C2B22706C00F4AB32 /* ListOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOptions.swift; sourceTree = "<group>"; };
+		F1B61F852B2A5FB90089A107 /* ProgressoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressoView.swift; sourceTree = "<group>"; };
 		F1FF98262B290C0800F823C0 /* Treinos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treinos.swift; sourceTree = "<group>"; };
 		F1FF98282B290C2C00F823C0 /* Nutrição.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nutrição.swift"; sourceTree = "<group>"; };
 		F1FF982A2B290C5700F823C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 				F1FF982A2B290C5700F823C0 /* Home.swift */,
 				F1FF98322B291EC700F823C0 /* NaoConquistouView.swift */,
 				F1FF98302B291DE400F823C0 /* ConquistouView.swift */,
+				F1B61F852B2A5FB90089A107 /* ProgressoView.swift */,
 				F1FF98362B292D5500F823C0 /* AlturaView.swift */,
-				F10A37BE2B27BEBA00D0B69B /* ProgressView.swift */,
 				F1812A022B226CC800F4AB32 /* Assets.xcassets */,
 				F1812A042B226CC800F4AB32 /* Preview Content */,
 			);
@@ -172,9 +172,9 @@
 				F1FF98332B291EC700F823C0 /* NaoConquistouView.swift in Sources */,
 				F1FF98292B290C2C00F823C0 /* Nutrição.swift in Sources */,
 				F1FF98312B291DE500F823C0 /* ConquistouView.swift in Sources */,
+				F1B61F862B2A5FB90089A107 /* ProgressoView.swift in Sources */,
 				F1FF982B2B290C5700F823C0 /* Home.swift in Sources */,
 				F1FF982F2B29100E00F823C0 /* PerfilView.swift in Sources */,
-				F10A37BF2B27BEBA00D0B69B /* ProgressView.swift in Sources */,
 				F1FF98272B290C0800F823C0 /* Treinos.swift in Sources */,
 				F1812A012B226CC800F4AB32 /* ContentView.swift in Sources */,
 				F18129FF2B226CC800F4AB32 /* Hacka_NutriApp.swift in Sources */,

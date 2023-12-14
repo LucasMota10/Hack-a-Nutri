@@ -79,7 +79,7 @@ struct PerfilView: View {
                                 
                             } .padding(.trailing, 10).padding(10)
                             HStack(alignment: .top) {
-                                NavigationLink (destination: ProgressView()){
+                                NavigationLink (destination: ProgressoView()){
                                     VStack {
                                         Image(systemName: "star.fill")
                                             .foregroundColor(.white).font(.system(size: 22))
